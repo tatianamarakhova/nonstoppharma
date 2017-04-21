@@ -1,0 +1,55 @@
+
+body{
+  background: #CCFFFF;
+}
+title {
+  background: #66afe9
+}
+
+table {
+  overflow: scroll;
+  max-width: 100%;
+}
+
+.green {
+  background: #6699CC;
+}
+img{
+  max-width:100%
+}
+.flexslider{
+  max-width: 900px;
+}
+.item{
+  float:left;
+  margin-right:20px;
+  margin-bottom:20px;
+  width:200px;
+}
+@media screen and (min-width:420px) and (max-width:988px) {
+  .item {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:988px) {
+  .left-column {
+    width: 20px;
+    float: left;
+  }
+
+  #right-column {
+    width: 20%;
+    float: right;
+  }
+}
+
+.left-column {
+  width: 20px;
+  float: left;
+}
+
+#right-column {
+  width: 20%;
+  float: right;
+}
